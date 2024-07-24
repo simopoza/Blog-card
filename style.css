@@ -32,15 +32,15 @@ body {
 	transition: transform 0.3s ease;
 }
 
-svg {
+.svg-container > img {
 	width: 100%;
 	height: 100%;
 	display: block;
   border-radius: 10px;
 } 
 
-svg:hover,
-svg:focus {
+.svg-container > img:hover,
+.svg-container > img:focus {
 	transform: scale(1.1);
 }
 
@@ -92,11 +92,11 @@ p:focus {
 	color: hsl(0, 0%, 42%);
 }
 
-.owner {
+.footer {
 	display: flex;
 }
 
-img {
+footer > img {
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
@@ -104,7 +104,7 @@ img {
 	transition: transform 0.3s ease;
 }
 
-img:hover,
-img:focus {
+footer > img:hover,
+footer > img:focus {
 	transform: scale(1.3);
 }
